@@ -1,0 +1,85 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-wrapper{
+    margin-top: 50px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 25px;
+    font-weight: 250;
+    text-align: center;
+    width: 70em;
+}
+.todo-wrapper h1{
+    margin: 0;
+}
+.todo-wrapper p{
+    font-style: italic;
+    color: darkcyan;
+    margin: 5px 0;
+}
+
+.todo-wrapper ol{
+    margin: 20px 0;
+
+}
+
+.todo-wrapper ol li{
+    margin: 5px 0;
+    padding: 3px;
+    transition: all 0.5s ease-out;
+}
+
+.todo-wrapper form{
+    display: inline-block;
+
+}
+
+.todo-wrapper input{
+    padding: 3px 5px;
+}
+
+
+.btn1{
+    margin: 10px 2px;
+    background-color: darkcyan;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+}
+
+.btn2{
+    margin: 10px 2px;
+    background-color: #ff3d02;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+}
+
+.danger-btn {
+    margin-left: 10px;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 10px;
+}
+
+#notes:hover{
+    cursor: pointer;
+}
